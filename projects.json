@@ -1,0 +1,72 @@
+[
+    {
+        "name": "OpenAI GPT-3",
+        "category": "Natural Language Processing",
+        "description": "A powerful language generation and understanding AI model developed by OpenAI.",
+        "image": "placeholder-image.webp",
+        "pricing": "Freemium"
+    },
+    {
+        "name": "TensorFlow",
+        "category": "Machine Learning",
+        "description": "An open-source machine learning framework developed by Google.",
+        "image": "placeholder-image.webp",
+        "pricing": "Free"
+    },
+    {
+        "name": "PyTorch",
+        "category": "Machine Learning",
+        "description": "An open-source machine learning library developed by Facebook.",
+        "image": "placeholder-image.webp",
+        "pricing": "Free"
+    },
+    {
+        "name": "Keras",
+        "category": "Deep Learning",
+        "description": "An open-source neural network library written in Python that runs on top of TensorFlow, Microsoft Cognitive Toolkit, or Theano.",
+        "image": "placeholder-image.webp",
+        "pricing": "Free"
+    },
+    {
+        "name": "Scikit-learn",
+        "category": "Machine Learning",
+        "description": "A free software machine learning library for the Python programming language.",
+        "image": "placeholder-image.webp",
+        "pricing": "Free"
+    },
+    {
+        "name": "Microsoft Cognitive Services",
+        "category": "Machine Learning",
+        "description": "A collection of APIs and SDKs that enable developers to easily add intelligent features to their applications.",
+        "image": "placeholder-image.webp",
+        "pricing": "Freemium"
+    },
+    {
+        "name": "IBM Watson",
+        "category": "Natural Language Processing",
+        "description": "A suite of enterprise-grade AI services that allow businesses to build and deploy machine learning models.",
+        "image": "placeholder-image.webp",
+        "pricing": "Freemium"
+    },
+    {
+        "name": "Dialogflow",
+        "category": "Natural Language Processing",
+        "description": "A natural language understanding platform that makes it easy to design and integrate conversational user interfaces into mobile apps, web applications, devices, and bots.",
+        "image": "placeholder-image.webp",
+        "pricing": "Freemium"
+    },
+    {
+        "name": "Hugging Face Transformers",
+        "category": "Natural Language Processing",
+        "description": "A Python library that provides state-of-the-art machine learning models for NLP.",
+        "image": "placeholder-image.webp",
+        "pricing": "Free"
+    },
+    {
+        "name": "FastAPI",
+        "category": "Web Frameworks",
+        "description": "A modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.",
+        "image": "placeholder-image.webp",
+        "pricing": "Free"
+    }
+]
