@@ -23,13 +23,33 @@ fetch('projects.json')
       
 
 
+    
+
+      // const link = document.createElement('a');
+      // link.textContent = project.link;
+      // link.setAttribute('href', project.link);
+      // card.appendChild(link);
+      
+      const container = document.createElement('div');
+
       const link = document.createElement('a');
       link.textContent = project.link;
-      card.appendChild(link);
+      link.setAttribute('href', project.link);
+      
+      const button = document.createElement('button');
+      button.textContent = 'Click me';
+      button.setAttribute('type', 'button');
+      button.addEventListener('click', function() {
+        window.location.href = link.getAttribute('href');
+      });
+      
+      container.appendChild(link);
+      container.appendChild(button);
+      card.appendChild(container);
+      
 
 
-
-
+      
       const pricing = document.createElement('div');
       pricing.classList.add('pricing');
       pricing.textContent = project.pricing;
