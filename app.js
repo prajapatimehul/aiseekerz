@@ -23,32 +23,32 @@ fetch('projects.json')
       
 
 
-    
 
-      // const link = document.createElement('a');
-      // link.textContent = project.link;
-      // link.setAttribute('href', project.link);
-      // card.appendChild(link);
-      
-      const container = document.createElement('div');
 
-      const link = document.createElement('a');
-      link.textContent = project.link;
-      link.setAttribute('href', project.link);
+
+      // const button = document.createElement('button'); // create a button element
+      // button.textContent = 'Visit Site'; // set the text content of the button
+      // button.addEventListener('click', function() { // add a click event listener to the button
+      //   window.location.href = project.link; // navigate to the project link when the button is clicked
+      // });
+      // card.appendChild(button); // add tprojecthe button to the card element
       
-      const button = document.createElement('button');
-      button.textContent = 'Click me';
-      button.setAttribute('type', 'button');
-      button.addEventListener('click', function() {
-        window.location.href = link.getAttribute('href');
+
+      const button = document.createElement('button'); // create a button element
+      button.textContent = 'Vsit Site'; // set the text content of the button
+      button.style.backgroundColor = 'blue'; // set the background color of the button
+      button.style.color = 'white'; // set the text color of the button
+      button.style.padding = '10px 20px'; // set the padding of the button
+      button.style.fontWeight = 'bold';
+      button.style.fontSize = '17px';
+      button.style.border = 'none'; // remove the border of the button
+      button.style.borderRadius = '5px'; // set the border radius of the button
+      button.style.cursor = 'pointer';
+      button.addEventListener('click', function() { // add a click event listener to the button
+        window.location.href = project.link; // navigate to the project link when the button is clicked
       });
+      card.appendChild(button); // add the button to the card element
       
-      container.appendChild(link);
-      container.appendChild(button);
-      card.appendChild(container);
-      
-
-
       
       const pricing = document.createElement('div');
       pricing.classList.add('pricing');

@@ -1,5 +1,5 @@
 body {
-    background-color: #eeecec;
+    background-color: #d8d8d8;
     font-family: sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -25,6 +25,9 @@ margin-bottom: 3rem;
 
 #description p {
 margin: 0;
+}
+#description #button {
+  background-color: #000;
 }
 
 #projects {
@@ -102,5 +105,4 @@ margin-top: 1rem;
   text-decoration: none;
   color: #343a40;
 }
-
 
